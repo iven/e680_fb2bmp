@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BMP_BIT_16	main.c	/^    BMP_BIT_16,$/;"	e	enum:__anon3	file:
+BMP_BIT_24	main.c	/^    BMP_BIT_24$/;"	e	enum:__anon3	file:
+BYTE	bmp_struct.h	1;"	d
+DWORD	bmp_struct.h	3;"	d
+FB_HEIGHT	main.c	27;"	d	file:
+FB_SIZE	main.c	28;"	d	file:
+FB_WIDTH	main.c	26;"	d	file:
+LONG	bmp_struct.h	4;"	d
+WORD	bmp_struct.h	2;"	d
+__anon1::biBitCount	bmp_struct.h	/^    WORD biBitCount;$/;"	m	struct:__anon1	access:public
+__anon1::biClrImportant	bmp_struct.h	/^    DWORD biClrImportant;$/;"	m	struct:__anon1	access:public
+__anon1::biClrUsed	bmp_struct.h	/^    DWORD biClrUsed;$/;"	m	struct:__anon1	access:public
+__anon1::biCompression	bmp_struct.h	/^    DWORD biCompression;$/;"	m	struct:__anon1	access:public
+__anon1::biHeight	bmp_struct.h	/^    LONG biHeight;$/;"	m	struct:__anon1	access:public
+__anon1::biPlanes	bmp_struct.h	/^    WORD biPlanes;$/;"	m	struct:__anon1	access:public
+__anon1::biSize	bmp_struct.h	/^    DWORD biSize;$/;"	m	struct:__anon1	access:public
+__anon1::biSizeImage	bmp_struct.h	/^    DWORD biSizeImage;$/;"	m	struct:__anon1	access:public
+__anon1::biWidth	bmp_struct.h	/^    LONG biWidth;$/;"	m	struct:__anon1	access:public
+__anon1::biXPelsPerMeter	bmp_struct.h	/^    LONG biXPelsPerMeter;$/;"	m	struct:__anon1	access:public
+__anon1::biYPelsPerMeter	bmp_struct.h	/^    LONG biYPelsPerMeter;$/;"	m	struct:__anon1	access:public
+__anon2::bfOffBits	bmp_struct.h	/^    DWORD bfOffBits;              \/\/文件头到实际位图数据偏移字节数$/;"	m	struct:__anon2	access:public
+__anon2::bfReserved1	bmp_struct.h	/^    WORD bfReserved1;              \/\/保留字1$/;"	m	struct:__anon2	access:public
+__anon2::bfReserved2	bmp_struct.h	/^    WORD bfReserved2;              \/\/保保留字2留字2$/;"	m	struct:__anon2	access:public
+__anon2::bfSize	bmp_struct.h	/^    DWORD bfSize;              \/\/文件大小$/;"	m	struct:__anon2	access:public
+__anon2::bfType	bmp_struct.h	/^    WORD bfType;              \/\/BBMM$/;"	m	struct:__anon2	access:public
+bfOffBits	bmp_struct.h	/^    DWORD bfOffBits;              \/\/文件头到实际位图数据偏移字节数$/;"	m	struct:__anon2	access:public
+bfReserved1	bmp_struct.h	/^    WORD bfReserved1;              \/\/保留字1$/;"	m	struct:__anon2	access:public
+bfReserved2	bmp_struct.h	/^    WORD bfReserved2;              \/\/保保留字2留字2$/;"	m	struct:__anon2	access:public
+bfSize	bmp_struct.h	/^    DWORD bfSize;              \/\/文件大小$/;"	m	struct:__anon2	access:public
+bfType	bmp_struct.h	/^    WORD bfType;              \/\/BBMM$/;"	m	struct:__anon2	access:public
+biBitCount	bmp_struct.h	/^    WORD biBitCount;$/;"	m	struct:__anon1	access:public
+biClrImportant	bmp_struct.h	/^    DWORD biClrImportant;$/;"	m	struct:__anon1	access:public
+biClrUsed	bmp_struct.h	/^    DWORD biClrUsed;$/;"	m	struct:__anon1	access:public
+biCompression	bmp_struct.h	/^    DWORD biCompression;$/;"	m	struct:__anon1	access:public
+biHeight	bmp_struct.h	/^    LONG biHeight;$/;"	m	struct:__anon1	access:public
+biPlanes	bmp_struct.h	/^    WORD biPlanes;$/;"	m	struct:__anon1	access:public
+biSize	bmp_struct.h	/^    DWORD biSize;$/;"	m	struct:__anon1	access:public
+biSizeImage	bmp_struct.h	/^    DWORD biSizeImage;$/;"	m	struct:__anon1	access:public
+biWidth	bmp_struct.h	/^    LONG biWidth;$/;"	m	struct:__anon1	access:public
+biXPelsPerMeter	bmp_struct.h	/^    LONG biXPelsPerMeter;$/;"	m	struct:__anon1	access:public
+biYPelsPerMeter	bmp_struct.h	/^    LONG biYPelsPerMeter;$/;"	m	struct:__anon1	access:public
+bmp_bit_count	main.c	/^} bmp_bit_count;				\/* ----------  end of union bmp_bit_count  ---------- *\/$/;"	t	typeref:enum:__anon3	file:
+bmp_file_header	bmp_struct.h	/^} bmp_file_header;$/;"	t	typeref:struct:__anon2
+bmp_info_header	bmp_struct.h	/^} bmp_info_header;$/;"	t	typeref:struct:__anon1
+init_header	main.c	/^init_header ( bmp_file_header *file, bmp_info_header *info, bmp_bit_count bit )$/;"	f	signature:( bmp_file_header *file, bmp_info_header *info, bmp_bit_count bit )
+main	main.c	/^main ( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+write_header	main.c	/^write_header ( FILE *fp, bmp_file_header *file, bmp_info_header *info )$/;"	f	signature:( FILE *fp, bmp_file_header *file, bmp_info_header *info )
+write_pixels	main.c	/^write_pixels ( FILE *fp, WORD (*buf) [FB_WIDTH], bmp_bit_count bit )$/;"	f	signature:( FILE *fp, WORD (*buf) [FB_WIDTH], bmp_bit_count bit )
